@@ -1,0 +1,12 @@
+html{
+    font-size: 22px;
+}
+a{
+    color: rgb(42, 145, 235);
+}
+a:visited{
+    color: rgb(203, 206, 26);
+}
+a:hover, a:active{
+    color: #464343;
+}

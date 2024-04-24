@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: ghostwhite;
+}
+.parent{
+    width: 50%;
+    height: 80%;
+    background-color: rgb(240, 149, 30);
+    
+}
+.up>h4{
+    font-size: 10px;
+}
+.up>p{
+font-size: 8px;
+}
+.down>p{
+    font-size: 9px;
+}
+.top{
+    width: 100%;
+    height: 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url(https://static.vecteezy.com/system/resources/previews/007/389/592/large_2x/beautiful-young-asian-business-woman-drinking-coffee-and-using-laptop-computer-while-working-in-office-free-photo.JPG);
+}
+.up{
+    width: 100%;
+    height: 20%;
+    display: flex;
+    padding-left: 40px;
+    padding-right: 40px;
+    align-items: center;
+    justify-content: space-between;
+    background-color: transparent;
+}
+.opts>p{
+    font-size: 9px;
+}
+.opts>i{
+    font-size: 40px;
+}
+.down>button{
+    font-size: 8px;
+    border: none;
+    width: 15%;
+    height: 10%;
+    background-color: rgb(240, 149, 30);
+}
+.down{
+padding-left: 40px;
+}
+.bottom{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 40%;
+}
+.bd{
+    display: flex;
+    width: 100%;
+    height: 80%;
+    background-color:rgb(240, 149, 30);
+    justify-content: space-between;
+}
+.opts{
+    height: 100%;
+    width: 33%;
+    display: flex;
+    gap: 10px;
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color:rgb(240, 149, 30);
+}
+.text{
+    text-align: center;
+    gap: 20px;
+}
