@@ -1,0 +1,299 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.parent{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+}
+.header{
+    width: 100%;
+    height: 70px;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-bottom: solid 1px darkgrey;
+    border-top: solid 1px darkgrey;
+    margin-top: 10px;
+}
+.mon{
+    width: 17%;
+    height: 13%;
+    background-color: white;
+    color: steelblue;
+    border: none;
+    border-radius: 50px;
+}
+.rig > a:visited{
+    color: black;
+}
+.reg > a:visited{
+    color: white;
+}
+.reg > a{
+    text-decoration: none;
+    color: white;
+}
+.rig > a{
+    text-decoration: none;
+}
+.tee{
+    height: 80%;
+    width: 10%;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url(https://www.sosilslogistics.com/_next/image?url=%2Fimages%2Flogo.png&w=640&q=75);
+    background-color: transparent;
+}
+.opts{
+    height: 100%;
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+}
+.optsone>button{
+    width: 30%;
+    height: 40%;
+    border: none;
+    background-color: transparent;
+    font-size: 15px;
+}
+.optsone{
+    height: 100%;
+    width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: white;
+}
+.optstwo{
+    height: 100%;
+    width:20% ;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.reg{
+    width: 50%;
+    height: 50%;
+    border: none;
+    border-radius: 30px;
+    color: white;
+    background-color: rgb(44, 44, 163);
+}
+.rig{
+    border: none;
+    background-color: transparent;
+    font-size: 15px;
+}
+.mid{
+    width: 95%;
+    height: 450px;
+    background-image: url(https://wallpapers.com/images/featured/plain-blue-dmlktw5iuzdjvb7j.jpg);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+    border-radius: 20px;
+    border: none;
+    margin-top: 10px;
+    color: white;
+    gap: 20px;
+}
+.mid>p{
+    font-size: 25px;
+}
+.mid>h1{
+    font-size: 80px;
+}
+.area{
+    margin-top: 15px;
+    width: 38%;
+    height: 15%;
+    border-radius: 40px;
+    border: solid 2px white;
+    display: flex;
+    align-items: center;
+    padding-right:7px ;
+    padding-left: 7px;
+    justify-content: space-between;
+    font-size: 20px;
+}
+.area>button{
+    
+    color: blue;
+    width: 30%;
+    height: 80%;
+    border: none;
+    font-size: 17px;
+    background-color: white;
+    border-radius: 30px;
+}
+.middown{
+    width: 95%;
+    height: 500px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-self: center;
+}
+.mdtitle{
+    width: 100%;
+    height: 20%;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    font-size: 40px;
+    align-items: center;
+}
+.meed{
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    height: 70%;
+}
+.midopts{
+    width: 31%;
+    height: 100%;
+    border-radius: 10px;
+    background-color: aliceblue;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-top: 40px;
+    padding-left: 20px;
+    padding-right: 20px;
+    align-items: center;
+}
+.one{
+    width: 90%;
+    height: 50%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: solid white;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;   
+    background-image: url("https://www.sosilslogistics.com/_next/image?url=%2Fimages%2FDSC_2284a.jpg&w=640&q=75");
+}
+.two{
+    width: 90%;
+    height: 50%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: solid white;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    background-image: url("https://www.sosilslogistics.com/_next/image?url=https%3A%2F%2Fimg.freepik.com%2Ffree-photo%2Fcontainer-terminal-wharf-transport_1417-142.jpg%3Ft%3Dst%3D1711317403~exp%3D1711321003~hmac%3Debf46a10eae80666f4219c83d49e0bc3fa93bdfd5e951791a1fc59743395e9a3%26w%3D996&w=640&q=75");
+}
+.three{
+    width: 90%;
+    height: 50%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: solid white;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    background-image: url("https://www.sosilslogistics.com/_next/image?url=https%3A%2F%2Fimg.freepik.com%2Ffree-photo%2Fcardboard-boxes-conveyor-belt-warehouse_632498-1171.jpg%3Ft%3Dst%3D1711317451~exp%3D1711321051~hmac%3Def4483c2fc429e595a57c1b0d1402ce4bc8ed7760b8e7fb24cffdb8b7188b99b%26w%3D996&w=640&q=75");
+}
+.midopts>button{
+    width: 40%;
+    height: 12%;
+    border: none;
+    border-radius: 10px;
+    background-color: white;
+    color: blue;
+}
+.midbottom{
+    width: 95%;
+    height: 450px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    border-radius: 10px;
+    margin-top: 40px;
+    gap: 20px;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+    align-self: center;
+    align-items: center;
+    background-image: url(https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/f59e8e40-68e7-493f-bed2-57c367ef504a/ddzqxm-7ac09659-aeb5-4380-8e14-00546a8fd2d8.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcL2Y1OWU4ZTQwLTY4ZTctNDkzZi1iZWQyLTU3YzM2N2VmNTA0YVwvZGR6cXhtLTdhYzA5NjU5LWFlYjUtNDM4MC04ZTE0LTAwNTQ2YThmZDJkOC5wbmcifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6ZmlsZS5kb3dubG9hZCJdfQ.g_GhUT5d8a1txaPCyT-wEAvJxqYSPasIUkDE8s6g88Q);
+}
+.midbottom>h3{
+    font-size: 50px;
+}
+.midbottom>p{
+    font-size: 18px;
+}
+.midbottom>button{
+    width: 15%;
+    height: 11%;
+    font-size: 20px;
+    color: blue;
+    background-color: white;
+    border: none;
+    border-radius: 40px;
+}
+.bottom{
+    width: 85%;
+    height: 200px;
+    background-color: white;
+    align-self: center;
+    display: flex;
+    flex-direction: column;
+    margin-top: 80px;
+}
+.bup{
+    display: flex;
+    height: 80%;
+    width: 100%;
+    justify-content: space-between;
+}
+.items{
+    width: 60%;
+    height: 100%;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+}
+.logo{
+    width: 15%;
+    height: 40%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-image: url("https://www.sosilslogistics.com/_next/image?url=%2Fimages%2Flogo.png&w=640&q=75");
+}
+.info{
+    width: 30%;
+    height: 100%;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.bdown{
+    display: flex;
+    border-top: solid 1px darkgrey;
+    width: 100%;
+    height: 20%;
+    justify-content: space-between;
+    align-items: center;
+}
