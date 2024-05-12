@@ -1,0 +1,134 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.parent{
+    width: 100%;
+    height: 600px;
+    display: flex;
+    background-color: green;
+
+}
+.left{
+    background-color: green;
+    border: solid white 10px;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100%;
+
+}
+.right{
+    background-color: green;
+    border: solid white 10px;
+    border-left: none;
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.rect{
+    height: 60%;
+    width: 30%;
+    display: flex;
+    border-left: none;
+    align-items: center;
+    justify-content: space-between;
+    background-color: green;
+    border: solid white 5px;
+    padding-right: 50px;
+}
+.circle{
+    width: 13%;
+    height: 30%;
+    border-top-left-radius: 100px;
+    border-bottom-left-radius: 100px;
+    border: solid white 5px;
+    border-right: none;
+}
+.dot{
+    width: 14%;
+    height: 6%;
+    background-color: white;
+    border-radius: 50px;
+
+}
+.circ{
+    width: 13%;
+    height: 30%;
+    border-top-right-radius: 100px;
+    border-bottom-right-radius: 100px;
+    border: solid white 5px;
+    border-left: none;
+}
+.square{
+    width: 50%;
+    height: 60%;
+    background-color: green;
+    border: none;
+    align-items: center;
+    justify-content: right;
+    display: flex;
+}
+.ang{
+    height: 30%;
+    width: 15%;
+    border: solid white 5px;
+    border-top-left-radius: 100px;
+    border-bottom-left-radius: 100px;
+    border-right: none;
+}
+.pen{
+    width: 60%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    padding-left: 50px;
+    justify-content: space-between;
+    border: solid white 5px;
+    
+}
+.inn{
+    height: 60%;
+    width: 30%;
+    border-right: none;
+    background-color: green;
+    border: solid white 5px;
+    padding-right: 50px;
+}
+.squared{
+    width: 50%;
+    height: 60%;
+    background-color: green;
+    border: none;
+    align-items: center;
+    justify-content: left;
+    display: flex;
+}
+.angle{
+    height: 30%;
+    width: 15%;
+    border: solid white 5px;
+    border-top-right-radius: 100px;
+    border-bottom-right-radius: 100px;
+    border-left: none;
+}
+.inns{
+    height: 60%;
+    width: 40%;
+    border-left: none;
+    background-color: green;
+    border: solid white 5px;
+}
+.pens{
+    width: 60%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: solid white 5px;
+    padding-right: 50px;
+}
