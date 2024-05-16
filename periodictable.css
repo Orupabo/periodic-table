@@ -21,9 +21,3 @@ body{
     background-color: gray;
     padding: 30px;
 }
-.item{
-    width: 100%;
-    background-color: aqua;
-    font-size: 40px;
-    border: solid 2px grey;
-}
