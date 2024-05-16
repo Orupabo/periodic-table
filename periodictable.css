@@ -4,13 +4,22 @@
     box-sizing: border-box;
 }
 body{
-    background-color: rgb(24, 23, 23);
+    background-color: white;
     padding-top: 1%;
+    text-align: center;
 }
 .container{
     height: max-content;
-    width: 100%;
+    width: max-content;
     border: solid 2px rgb(190, 207, 30);
+}
+.container>div{
+    background-color: aqua;
+    padding: 30px;
+}
+.container>div:nth-child(even){
+    background-color: gray;
+    padding: 30px;
 }
 .item{
     width: 100%;
